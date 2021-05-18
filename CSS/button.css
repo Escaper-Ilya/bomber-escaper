@@ -1,0 +1,91 @@
+.modal {
+  background: #fff;
+  color: #666871;
+  text-align: center;
+  width: 400px;
+  max-width: 90%;
+  height: 250px;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  margin: auto;
+  padding: 40px;
+  pointer-events: auto;
+  font-weight: bold;
+  visibility: hidden;
+}
+
+@media screen and (max-width: 40em) {
+  .modal { height: 350px; }
+}
+
+.modal h2 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    margin: 0.5em 0 0.25em;
+    color: #fff;
+}
+
+.form_button{
+    margin-top: 20px;
+    width: 100%;
+    min-height: 70px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+    color: #fff;
+    background-color: #E52E29;
+    
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    -webkit-transition: background 0.3s;
+    transition: background 0.3s;
+}
+
+.form_button:hover {
+  background: #e20202;
+  box-shadow: inset 10px 2x 5px rgba(85, 85, 85, 0.5), 5px 1px 5px rgb(255, 255, 255);
+}
+
+.close-modal {
+  color: #aaa;
+  background: none;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  width: 20px;
+  height: 20px;
+  line-height: 15px;
+  font-size: 22px;
+  font-weight: bold;
+cursor: pointer;
+}
+
+.close-modal:hover {
+  color: #e20202;
+}
+.modal.js-blur{
+    display: table-cell;
+    z-index: 100;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20px;
+    color: #fff;
+    width: 90%;
+    height: 90%;
+    background: #212129;
+    border: 1px solid #E52E29;
+
+}
+
+}
+.modal.js-blur .p{
+    font-family: 'Oswald', sans-serif;
+    
+}
